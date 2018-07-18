@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">To-Do List</string>
+    <string name="title_activity_open_item">OpenItem</string>
+    <string name="title_activity_open">OpenActivity</string>
+</resources>

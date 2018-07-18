@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:textSize="60dp"
+        android:gravity="center"
+        android:id="@+id/titleET"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:hint="Description"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/descET"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:hint="Pick Date"
+        android:textSize="40dp"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:gravity="center"
+        android:id="@+id/DateET"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:hint="Pick Time"
+        android:textSize="40dp"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:gravity="center"
+        android:id="@+id/TimeET"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editfab"
+        android:onClick="editToDo"
+        android:src="@drawable/ic_edit_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:baselineAlignBottom="true"/>
+
+
+</LinearLayout>
